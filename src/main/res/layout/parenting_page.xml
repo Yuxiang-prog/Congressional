@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout android:orientation="vertical" android:isScrollContainer="true" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintEnd_toEndOf="parent" android:textStyle="bold" android:textSize="48sp" android:textColor="#E83546" android:textAlignment="center" android:text="Parenting Rights" android:fontFamily="sans-serif-condensed-light" android:layout_marginTop="4dp" android:id="@+id/titleparenting"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:textColor="#4D7CF1" android:textAlignment="center" android:text="(Chapter 199)" android:id="@+id/chapter" app:layout_constraintTop_toBottomOf="@+id/titleparenting"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView android:layout_height="match_parent" android:layout_width="405dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/titleparenting" app:layout_constraintVertical_bias="1.0" app:layout_constraintBottom_toBottomOf="parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="347dp" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.508" app:layout_constraintEnd_toEndOf="parent" android:textStyle="bold|italic" android:textAlignment="center" android:text="Children in this passage refers to minor children under the age of 18\n Parents in this passage refers to the legal guardian(s) of minor children." android:fontFamily="sans-serif-condensed-light" android:layout_marginTop="16dp" android:id="@+id/disclaimer"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="347dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.482" app:layout_constraintEnd_toEndOf="parent" android:textStyle="normal" android:textSize="16sp" android:textAlignment="textStart" android:text="\t Parents have the right to control how they raise their children (as long as it is in compliance with federal parenting laws). Parents have the right to decide how they morally or religiously influence their children and have the right to direct the method of education of their children, as long as the method is approved by federal law. " android:fontFamily="sans-serif-condensed-light" android:layout_marginTop="12dp" android:id="@+id/paragraph" app:layout_constraintTop_toBottomOf="@+id/disclaimer"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="347dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.517" app:layout_constraintEnd_toEndOf="parent" android:textStyle="bold" android:textSize="20sp" android:text="Educational Rights" android:layout_marginTop="24dp" android:id="@+id/header" app:layout_constraintTop_toBottomOf="@+id/paragraph"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="347dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:textStyle="normal" android:textSize="16sp" android:textAlignment="textStart" android:text="\tParents have the right to know important information about their children’s mental, physical, and educational wellbeing while they (the children) are under the supervision of Florida school districts. School officials cannot withhold this information from parents. \n\n\tParents must be given the option to prevent schools from exposing their children to certain educational materials the parents see as harmful due to religious or moral orientation. \n\n\tParents also have the right to be notified by any employee of the Florida government if their child is suspected to be a victim of a crime. Unless, the case is under investigation by law enforcement and notifying parents would interrupt the investigation. " android:fontFamily="sans-serif-condensed-light" android:layout_marginTop="12dp" android:id="@+id/paragraph2" app:layout_constraintTop_toBottomOf="@+id/header"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="347dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.482" app:layout_constraintEnd_toEndOf="parent" android:textStyle="bold" android:textSize="20sp" android:text="Medical Rights" android:layout_marginTop="12dp" android:id="@+id/header2" app:layout_constraintTop_toBottomOf="@+id/paragraph2"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="347dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.482" app:layout_constraintEnd_toEndOf="parent" android:textStyle="normal" android:textSize="16sp" android:textAlignment="textStart" android:text="\tMedical professionals cannot perform medical procedures on children without receiving the written consent of a parent before the procedure. Parents also have the right to make medical decisions for their children. \n\n\tBiometric data (biological measurements) of children cannot be stored or shared without the written consent of a parent." android:fontFamily="sans-serif-condensed-light" android:layout_marginTop="12dp" android:id="@+id/paragraph3" app:layout_constraintTop_toBottomOf="@+id/header2"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:text="Read Chapter" android:layout_marginTop="8dp" android:id="@+id/parentinglink" app:layout_constraintTop_toBottomOf="@+id/paragraph3" app:backgroundTint="#4D7CF1" android:onClick="gotoWeb" android:clickable="true"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavView_Bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav_menu">
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</LinearLayout>

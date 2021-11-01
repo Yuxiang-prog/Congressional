@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/navigation_home"
+    tools:context=".HomeFederal">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ScrollView
+            android:layout_width="405dp"
+            android:layout_height="wrap_content"
+
+
+
+            tools:ignore="MissingConstraints">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:isScrollContainer="true"
+                android:scrollbarAlwaysDrawHorizontalTrack="true">
+
+
+
+                <TextView android:layout_height="wrap_content" android:layout_width="match_parent" app:layout_constraintVertical_bias="0.267" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent" android:textStyle="bold" android:textSize="48sp" android:textColor="#FFE83546" android:textAlignment="center" android:text="Federal Law" android:fontFamily="sans-serif-condensed-light" android:id="@+id/text_dashboard2"/>
+
+
+
+
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rights of a US Citizen"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:id="@+id/explanation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The first 10 amendments, also known as changes, in the US Constitution list essential individual freedoms for the American people. This is also known as the Bill of Rights"
+                    android:textColor="@color/black"
+
+                    />
+
+                <TextView
+                    android:id="@+id/Press"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Freedom of The Press - The US government cannot censor the press or opinions in print in anyway."
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    android:id="@+id/Speech"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Freedom of Speech - All Americans have the right to express opinions without any restraint. "
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    android:id="@+id/Religion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Freedom of Religion - All Americans have the right to practice any religion of choosing. "
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    android:id="@+id/Assembley"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Freedom of Assembley - The American people have a right to assemble peacefully, to express opinions or petition against the US government."
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    android:id="@+id/Arms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Right to Bear Arms - All Americans have the right to bear arms (weapons)."
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    android:id="@+id/Troop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   No Quartering - American people will not have to quarter (house) soldiers."
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    android:id="@+id/Warrants"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Search and Seizure - Unreasonable searches and seizures will not be conducted in American homes without warrants."
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    android:id="@+id/Conviction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Right to a fair trial - American people have the right to fair and speedy trial."
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    android:id="@+id/Jury"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Right to a Jury - American people have the right to a trial by Jury."
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    android:id="@+id/Punishment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Protection from Cruel Punishments - American people are protected from cruel and unusual punishments."
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    android:id="@+id/EnumerateRights"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Non-Enumerated Rights - Not all rights are stated in the Constitution."
+
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    android:id="@+id/RightsStates1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Rights to States and People - Power not granted to the federal government belongs to the states and people."
+
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+                <TextView
+                    android:id="@+id/spacer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+                <TextView
+                    android:id="@+id/importantlaws"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Important Laws"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    />
+                <TextView
+                    android:id="@+id/Explanation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="There are some essential laws that an American citizen must know, they are listed here in case of an emergency."
+
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+                <TextView
+                    android:id="@+id/USCodelink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/messageWithLink"
+
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+                <TextView
+                    android:id="@+id/FIAct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Freedom of Information Act"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                     />
+                <TextView
+                    android:id="@+id/FIActExp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="    This law lets US citizens know what happens in the government and federal agencies must disclose information requested by citizens. Exemptions apply to personal privacy, law enforcement, and classified information."
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    />
+                <TextView
+                    android:id="@+id/CivilRightsAct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Civil Rights Act"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    />
+                <TextView
+                    android:id="@+id/CRA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="    This act grants equal protection and voting rights for all citizens, as well as banning any discrimination centered on race, national affiliation, gender or religion."
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    />
+                <TextView
+                    android:id="@+id/PrivacyAct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Privacy Act"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    />
+                <TextView
+                    android:id="@+id/CRA1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="    Under this act, a US citizen may inquire for the information that the government stores about them and may make changes to it, if they believe the information to be incorrect. However, exemptions do apply in the case of legality as an example."
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    />
+
+                <TextView
+                    android:id="@+id/spacer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+                <TextView
+                    android:id="@+id/SocialMedia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Social Media Laws"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+                <TextView
+                    android:id="@+id/Explanation2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Not many know that Social Media Laws exist in the US, which is why the major ones are listed here."
+
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+                <TextView
+                    android:id="@+id/DMCA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Digital Millenium Copyright Act"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    />
+                <TextView
+                    android:id="@+id/DMCAE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="     This federal law is designed to prevent digital theft and piracy by protecting the rights of copyright holders. Unlawful reproduction or distribution of digital work is criminalized."
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+                <TextView
+                    android:id="@+id/CDA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Communication Decency Act"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    />
+                <TextView
+                    android:id="@+id/CDAE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="     This act prohibits any individual from knowingly transmitting inappropriate messages or material toa recipient under the age of 18. "
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    android:id="@+id/COPPA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Children's Online Privacy Protection Act"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    />
+                <TextView
+                    android:id="@+id/COPPAE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="     This federal law was designed to limit the collection and use of private information on children by the operators of web sites or internet services. "
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    android:id="@+id/spacer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+                <TextView
+                    android:id="@+id/PoliceLaw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Police Laws"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+                <TextView
+                    android:id="@+id/Explanation3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Whenever there is police interaction on the territory of the US, people have basic rights when interacting with police. They are listed below and should be used in extreme cases."
+
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+                <TextView
+                    android:id="@+id/Silence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Right to Remain Silent"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    />
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottomNavView_Bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/windowBackground"
+                    app:menu="@menu/bottom_nav_menu">
+
+
+                </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

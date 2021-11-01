@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LawfulCitizen</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Map</string>
+    <string name="title_notifications">State Law</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string
+        name="messageWithLink"><a href="https://www.govinfo.gov/app/collection/uscode/2019/">US Code</a></string>
+</resources>
